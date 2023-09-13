@@ -1,6 +1,6 @@
 {
-  "name": "rainier-digital-solutions",
-  "description": "RDS company website",
+  "name": "bigspring-light-nextjs",
+  "description": "a nextjs and tailwindcss SAAS starter template",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

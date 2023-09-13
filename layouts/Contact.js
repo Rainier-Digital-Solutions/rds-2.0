@@ -1,27 +1,51 @@
 import config from "@config/config.json";
 import { markdownify } from "@lib/utils/textConverter";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
+import { emailConfig } from "@config/emailConfig";
+import Toast from "./components/Toast";
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
   const { title, info } = frontmatter;
   const { contact_form_action } = config.params;
   const form = useRef();
+  const { emailServiceId, emailTemplateId, emailPublicKey } = emailConfig;
+  const [showToast, setShowToast] = useState(false);
+  const [fromName, setFromName] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(NEXT_PUBLIC_EMAIL_ID, NEXT_PUBLIC_TEMPLATE_ID, form.current, NEXT_PUBLIC_EMAIL_KEY)
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
+    const enteredFromName = form.current.elements.from_name.value;
+    const honeyPotEntry = form.current.elements.url.value;
+
+    if (honeyPotEntry) {
+      setFromName('for your submission');
+      setShowToast(true);
+    } else {
+      emailjs.sendForm(emailServiceId, emailTemplateId, form.current, emailPublicKey)
+        .then((result) => {
+          console.log(result.text);
+          form.current.reset();
+          setFromName(enteredFromName);
+          setShowToast(true);
+        })
+        .catch((error) => {
+          console.log(error.text);
+          setShowToast(true);
+        });
+    }
+
+    setTimeout(() => {
+      setShowToast(false);
+      setFromName('');
+    }, 3000);
   };
 
   return (
     <section className="section">
+      {showToast && <Toast fromName={fromName} />}
       <div className="container">
         {markdownify(title, "h1", "text-center font-normal")}
         <div className="pb-0 section row">
@@ -32,8 +56,13 @@ const Contact = ({ data }) => {
               action={contact_form_action}
               ref={form}
               onSubmit={sendEmail}
+              name="RDS Contact Form"
             >
               <div className="mb-3">
+                <div className="absolute ml-[-9999px]">
+                  <label htmlFor="website-url">Your Website Url</label>
+                  <input type="text" id="website-url" name="url" tabIndex={-1} autoComplete="false" />
+                </div>
                 <input
                   className="w-full rounded form-input"
                   name="from_name"
@@ -66,6 +95,11 @@ const Contact = ({ data }) => {
                   rows="7"
                   placeholder="Your message"
                   name="message"
+                  required
+                  spellCheck
+                  autoComplete="on"
+                  autoCorrect="on"
+                  maxLength={1024}
                 />
               </div>
               <button type="submit" className="btn btn-primary">
