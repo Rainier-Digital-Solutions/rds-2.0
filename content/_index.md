@@ -1,7 +1,7 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
+  title: Leave the Tech to Us
+  content: "We design, build, and manage websites for Small Businesses and Startups so they can focus on what matters: running their business. No need to worry about purchasing domains, updating websites, tracking SEO trends; we do it all for you."  
   image: /images/banner-art.svg
   button:
     label: "Contact Us"
@@ -9,26 +9,26 @@ banner:
 
 # feature
 feature: 
-  title: Something You Need To Know
+  title: What We Do
   features:
-  - name: "Clean Code"
+  - name: "Custom Code"
     icon: "/images/code.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Object Oriented"
+    content: "We don't use bulky WordPress or Wix templates. We custom build your site to reflect your brand."
+  - name: "Domain Management"
     icon: "/images/oop.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "No need to worry about your domain expiring or updating your DNS. We handle that."
   - name: "24h Service"
     icon: "/images/user-clock.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Your business doesn't stop and neither do we. When you call, your lead developer answers."
   - name: "Value for Money"
     icon: "/images/love.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "All the benefits of having a really nerdy IT guy on staff, but 1/10th the salary."
   - name: "Faster Response"
     icon: "/images/speedometer.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Speed doesn't kill online, unless its low speed. We build with the latest tech to get you 100% performance."
   - name: "Cloud Support"
     icon: "/images/cloud.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Need a cloud-based solution? No problem. We'll pick the best provider based on your needs."
 
 # services
 services:
