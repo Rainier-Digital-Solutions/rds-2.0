@@ -47,3 +47,5 @@ With the guidance of experienced professionals and the support of a collaborativ
 #### Why Rainier?
 
 Our name, inspired by daily view of Mount Rainier towering over our home base in Seattle, reflects our commitment to reaching new heights and inspiring awe through our work. Furthermore, it serves as a reminder that summiting great challenges requires incredible teamwork, daily dedication to excellence, and drive to constantly improve. Rainier Digital Solutions stands as a symbol of excellence, dedication, and the spirit of progression.
+
+![Certified Veteran Owned Business](/images/special/veteran-owned-business-certification.jpg)
