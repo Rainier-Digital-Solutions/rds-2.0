@@ -5,6 +5,10 @@
       "url": "/"
     },
     {
+      "name": "About",
+      "url": "/about"
+    },
+    {
       "name": "Pricing",
       "url": "/pricing"
     },
@@ -26,29 +30,21 @@
       "name": "Company",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "text": "Quick Start",
-          "url": "#"
+          "text": "About",
+          "url": "/about"
         }
       ]
     },
     {
-      "name": "Product",
+      "name": "Services",
       "menu": [
-        {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
         {
           "text": "Pricing",
           "url": "/pricing"
+        },
+        {
+          "text": "FAQ",
+          "url": "/faq"
         }
       ]
     },
@@ -56,16 +52,12 @@
       "name": "Support",
       "menu": [
         {
-          "text": "FAQ",
-          "url": "/faq"
-        },
-        {
           "text": "Privacy Policy",
-          "url": "#"
+          "url": "/privacy-policy"
         },
         {
           "text": "Terms & Conditions",
-          "url": "#"
+          "url": "/terms-and-conditions"
         }
       ]
     }
