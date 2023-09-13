@@ -14,8 +14,7 @@ const App = ({ Component, pageProps }) => {
   const [fontcss, setFontcss] = useState();
   useEffect(() => {
     fetch(
-      `https://fonts.googleapis.com/css2?family=${pf}${
-        sf ? "&family=" + sf : ""
+      `https://fonts.googleapis.com/css2?family=${pf}${sf ? "&family=" + sf : ""
       }&display=swap`
     ).then((res) => res.text().then((css) => setFontcss(css)));
   }, [pf, sf]);
@@ -50,7 +49,7 @@ const App = ({ Component, pageProps }) => {
         {/* responsive meta */}
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=5"
+          content="width=device-width, initial-scale=1"
         />
       </Head>
       <Component {...pageProps} />
