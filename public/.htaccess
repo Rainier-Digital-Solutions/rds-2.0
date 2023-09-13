@@ -1,6 +1,6 @@
 ##### Optimize default expiration time - BEGIN
 <IfModule mod_expires.c>
-  
+
   ## Enable expiration control
   ExpiresActive On
 
@@ -85,4 +85,14 @@
   <FilesMatch ".(js|css|xml|gz|html)$">
     Header append Vary: Accept-Encoding
   </FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Redirect 301 /company/about/ https://www.rainierdigitalsolutions.com/about/
+Redirect 301 /company/contact/ https://www.rainierdigitalsolutions.com/contact/
+Redirect 301 /company/privacy-policy/ https://www.rainierdigitalsolutions.com/privacy-policy/
+Redirect 301 /blog/ https://www.rainierdigitalsolutions.com/blogs/
+Redirect 301 /blog/posts/custom-website-advantages/ https://www.rainierdigitalsolutions.com/blogs/custom-website-advantages/
+Redirect 301 /blog/posts/yuzi-case-study/ https://www.rainierdigitalsolutions.com/blogs/yuzi-case-study/
 </IfModule>

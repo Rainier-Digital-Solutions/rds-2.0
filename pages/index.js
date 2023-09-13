@@ -8,9 +8,10 @@ import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import { getListPage } from "../lib/contentParser";
+import YoutubePlayer from "@layouts/components/YoutubePlayer";
 
 const Home = ({ frontmatter }) => {
-  const { banner, feature, services, workflow, call_to_action } = frontmatter;
+  const { banner, feature, services, video, workflow, call_to_action } = frontmatter;
   const { title } = config.site;
 
   return (
@@ -18,13 +19,13 @@ const Home = ({ frontmatter }) => {
       {/* Banner */}
       <section className="section pb-[50px]">
         <div className="container">
-          <div className="row text-center">
+          <div className="text-center row">
             <div className="mx-auto lg:col-10">
-              <h1 className="font-primary font-bold">{banner.title}</h1>
+              <h1 className="font-bold font-primary">{banner.title}</h1>
               <p className="mt-4">{markdownify(banner.content)}</p>
               {banner.button.enable && (
                 <Link
-                  className="btn btn-primary mt-4"
+                  className="mt-4 btn btn-primary"
                   href={banner.button.link}
                   rel={banner.button.rel}
                 >
@@ -45,24 +46,24 @@ const Home = ({ frontmatter }) => {
       </section>
 
       {/* Features */}
-      <section className="section bg-theme-light">
+      <section className="section bg-theme-light/20">
         <div className="container">
           <div className="text-center">
             <h2>{markdownify(feature.title)}</h2>
           </div>
-          <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid mt-8 gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
             {feature.features.map((item, i) => (
               <div
-                className="feature-card rounded-xl bg-white p-5 pb-8 text-center"
+                className="p-5 pb-8 text-center bg-white feature-card rounded-xl"
                 key={`feature-${i}`}
               >
                 {item.icon && (
                   <Image
                     className="mx-auto"
                     src={item.icon}
-                    width={30}
-                    height={30}
-                    alt=""
+                    width={48}
+                    height={48}
+                    alt={item.name}
                   />
                 )}
                 <div className="mt-4">
@@ -81,7 +82,7 @@ const Home = ({ frontmatter }) => {
         return (
           <section
             key={`service-${index}`}
-            className={`section ${isOdd && "bg-theme-light"}`}
+            className={`section ${isOdd && "bg-theme-light/20"}`}
           >
             <div className="container">
               <div className="items-center gap-8 md:grid md:grid-cols-2">
@@ -100,8 +101,8 @@ const Home = ({ frontmatter }) => {
                   >
                     {/* Slides */}
                     {service?.images.map((slide, index) => (
-                      <SwiperSlide key={index}>
-                        <Image src={slide} alt="" width={600} height={500} />
+                      <SwiperSlide key={index} className="mb-2">
+                        <Image src={slide} alt={slide.title} width={600} height={500} loading="lazy" className="rounded-md" />
                       </SwiperSlide>
                     ))}
                   </Swiper>
@@ -109,24 +110,24 @@ const Home = ({ frontmatter }) => {
 
                 {/* Content */}
                 <div
-                  className={`service-content mt-5 md:mt-0 ${
-                    !isOdd && "md:order-1"
-                  }`}
+                  className={`service-content mt-5 md:mt-0 ${!isOdd && "md:order-1"
+                    }`}
                 >
                   <h2 className="font-bold leading-[40px]">{service?.title}</h2>
                   <p className="mt-4 mb-2">{service?.content}</p>
                   {service.button.enable && (
                     <Link
                       href={service?.button.link}
-                      className="cta-link inline-flex items-center text-primary"
+                      className="inline-flex items-center font-bold cta-link"
                     >
                       {service?.button.label}
                       <Image
-                        className="ml-1"
+                        className="ml-1 rounded-md"
                         src="/images/arrow-right.svg"
                         width={18}
                         height={14}
                         alt="arrow"
+                        loading="lazy"
                       />
                     </Link>
                   )}
@@ -137,23 +138,38 @@ const Home = ({ frontmatter }) => {
         );
       })}
 
-      {/* workflow */}
-      <section className="section pb-0">
-        <div className="mb-8 text-center">
-          {markdownify(
-            workflow.title,
-            "h2",
-            "mx-auto max-w-[400px] font-bold leading-[44px]"
-          )}
-          {markdownify(workflow.description, "p", "mt-3")}
+      {/* youtube */}
+      {video && (
+        <div className="mx-auto mt-8 max-w-screen-2xl">
+          <YoutubePlayer
+            id={video.video_id}
+            title={video.title}
+            loading={video.loading}
+            alt={video.description}
+            poster="default"
+            className=""
+          />
         </div>
-        <Image
-          src={workflow.image}
-          alt="workflow image"
-          width={1920}
-          height={296}
-        />
-      </section>
+      )}
+      {/* workflow */}
+      {workflow && (
+        <section className="pb-0 section">
+          <div className="mb-8 text-center">
+            {markdownify(
+              workflow.title,
+              "h2",
+              "mx-auto max-w-[600px] font-bold leading-[44px]"
+            )}
+            {markdownify(workflow.description, "p", "mt-3")}
+          </div>
+          <Image
+            src={workflow.image}
+            alt="workflow image"
+            width={1920}
+            height={296}
+          />
+        </section>
+      )}
 
       {/* Cta */}
       <Cta cta={call_to_action} />

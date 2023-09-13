@@ -3,10 +3,13 @@ title: "Contact Us"
 layout: "contact"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Contact Us Today!
+  description: If you are ready to offload the drudgeries of building and maintaining your websites so you can run your business, send us a message to setup a call to discuss your needs.
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - method: "Phone:"
+      text: "[+1 425 224 6148](tel:+14252246148)"
+    - method: "Email:"
+      text: "[contact@rainierdigitalsolutions.com](mailto:contact@rainierdigitalsolutions.com)"
+    - method: "Location:"
+      text: "Seattle, WA"
 ---
