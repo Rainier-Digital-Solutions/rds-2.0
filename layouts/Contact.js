@@ -10,7 +10,7 @@ const Contact = ({ data }) => {
     <section className="section">
       <div className="container">
         {markdownify(title, "h1", "text-center font-normal")}
-        <div className="section row pb-0">
+        <div className="pb-0 section row">
           <div className="col-12 md:col-6 lg:col-7">
             <form
               className="contact-form"
@@ -19,25 +19,25 @@ const Contact = ({ data }) => {
             >
               <div className="mb-3">
                 <input
-                  className="form-input w-full rounded"
+                  className="w-full rounded form-input"
                   name="name"
                   type="text"
-                  placeholder="Name"
+                  placeholder="Peter Rainier"
                   required
                 />
               </div>
               <div className="mb-3">
                 <input
-                  className="form-input w-full rounded"
+                  className="w-full rounded form-input"
                   name="email"
                   type="email"
-                  placeholder="Your email"
+                  placeholder="pete@example.com"
                   required
                 />
               </div>
               <div className="mb-3">
                 <input
-                  className="form-input w-full rounded"
+                  className="w-full rounded form-input"
                   name="subject"
                   type="text"
                   placeholder="Subject"
@@ -46,7 +46,7 @@ const Contact = ({ data }) => {
               </div>
               <div className="mb-3">
                 <textarea
-                  className="form-textarea w-full rounded-md"
+                  className="w-full rounded-md form-textarea"
                   rows="7"
                   placeholder="Your message"
                 />
@@ -59,10 +59,11 @@ const Contact = ({ data }) => {
           <div className="content col-12 md:col-6 lg:col-5">
             {markdownify(info.title, "h4")}
             {markdownify(info.description, "p", "mt-4")}
-            <ul className="contact-list mt-5">
+            <ul className="mt-5 contact-list">
               {info.contacts.map((contact, index) => (
-                <li key={index}>
-                  {markdownify(contact, "strong", "text-dark")}
+                <li key={index} className="text-sm sm:text-base">
+                  {markdownify(contact.method, "strong", "text-dark")}
+                  <span className="pl-2">{markdownify(contact.text, "span", "text-dark")}</span>
                 </li>
               ))}
             </ul>

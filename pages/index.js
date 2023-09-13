@@ -8,9 +8,10 @@ import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import { getListPage } from "../lib/contentParser";
+import YoutubePlayer from "@layouts/components/YoutubePlayer";
 
 const Home = ({ frontmatter }) => {
-  const { banner, feature, services, workflow, call_to_action } = frontmatter;
+  const { banner, feature, services, video, workflow, call_to_action } = frontmatter;
   const { title } = config.site;
 
   return (
@@ -45,7 +46,7 @@ const Home = ({ frontmatter }) => {
       </section>
 
       {/* Features */}
-      <section className="section bg-theme-light">
+      <section className="section bg-theme-light/20">
         <div className="container">
           <div className="text-center">
             <h2>{markdownify(feature.title)}</h2>
@@ -62,7 +63,7 @@ const Home = ({ frontmatter }) => {
                     src={item.icon}
                     width={48}
                     height={48}
-                    alt=""
+                    alt={item.name}
                   />
                 )}
                 <div className="mt-4">
@@ -81,7 +82,7 @@ const Home = ({ frontmatter }) => {
         return (
           <section
             key={`service-${index}`}
-            className={`section ${isOdd && "bg-theme-light"}`}
+            className={`section ${isOdd && "bg-theme-light/20"}`}
           >
             <div className="container">
               <div className="items-center gap-8 md:grid md:grid-cols-2">
@@ -100,8 +101,8 @@ const Home = ({ frontmatter }) => {
                   >
                     {/* Slides */}
                     {service?.images.map((slide, index) => (
-                      <SwiperSlide key={index}>
-                        <Image src={slide} alt="" width={600} height={500} />
+                      <SwiperSlide key={index} className="mb-2">
+                        <Image src={slide} alt={slide.title} width={600} height={500} loading="lazy" className="rounded-md" />
                       </SwiperSlide>
                     ))}
                   </Swiper>
@@ -117,15 +118,16 @@ const Home = ({ frontmatter }) => {
                   {service.button.enable && (
                     <Link
                       href={service?.button.link}
-                      className="inline-flex items-center font-bold cta-link text-primary"
+                      className="inline-flex items-center font-bold cta-link"
                     >
                       {service?.button.label}
                       <Image
-                        className="ml-1"
+                        className="ml-1 rounded-md"
                         src="/images/arrow-right.svg"
                         width={18}
                         height={14}
                         alt="arrow"
+                        loading="lazy"
                       />
                     </Link>
                   )}
@@ -136,23 +138,38 @@ const Home = ({ frontmatter }) => {
         );
       })}
 
-      {/* workflow */}
-      <section className="pb-0 section">
-        <div className="mb-8 text-center">
-          {markdownify(
-            workflow.title,
-            "h2",
-            "mx-auto max-w-[600px] font-bold leading-[44px]"
-          )}
-          {markdownify(workflow.description, "p", "mt-3")}
+      {/* youtube */}
+      {video && (
+        <div className="mx-auto mt-8 max-w-screen-2xl">
+          <YoutubePlayer
+            id={video.video_id}
+            title={video.title}
+            loading={video.loading}
+            alt={video.description}
+            poster="default"
+            className=""
+          />
         </div>
-        <Image
-          src={workflow.image}
-          alt="workflow image"
-          width={1920}
-          height={296}
-        />
-      </section>
+      )}
+      {/* workflow */}
+      {workflow && (
+        <section className="pb-0 section">
+          <div className="mb-8 text-center">
+            {markdownify(
+              workflow.title,
+              "h2",
+              "mx-auto max-w-[600px] font-bold leading-[44px]"
+            )}
+            {markdownify(workflow.description, "p", "mt-3")}
+          </div>
+          <Image
+            src={workflow.image}
+            alt="workflow image"
+            width={1920}
+            height={296}
+          />
+        </section>
+      )}
 
       {/* Cta */}
       <Cta cta={call_to_action} />

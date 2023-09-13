@@ -10,7 +10,7 @@ const Footer = () => {
   const { copyright, footer_content } = config.params;
   const { footer } = menu;
   return (
-    <footer className="section bg-theme-light pb-0">
+    <footer className="pb-0 section bg-theme-light/10">
       <div className="container">
         {/* footer menu */}
         <div className="row">
@@ -20,7 +20,7 @@ const Footer = () => {
                 {markdownify(col.name, "h2", "h4")}
                 <ul className="mt-6">
                   {col?.menu.map((item) => (
-                    <li className="mb-1" key={item.text}>
+                    <li className="mb-1 hover:text-dark/50" key={item.text}>
                       <Link href={item.url} rel="">
                         {item.text}
                       </Link>
@@ -32,20 +32,20 @@ const Footer = () => {
           })}
           {/* social icons */}
           <div className="md-12 sm:col-6 lg:col-3">
-            <Link href="/" aria-label="Bigspring">
+            <Link href="/" aria-label="Rainier Digital Solutions">
               <Image
                 src={config.site.logo}
                 width={config.site.logo_width}
                 height={config.site.logo_height}
-                alt=""
+                alt="Rainier Digital Solutions"
               />
             </Link>
             {markdownify(footer_content, "p", "mt-3 mb-6")}
-            <Social source={social} className="social-icons mb-8" />
+            <Social source={social} className="mb-8 social-icons" />
           </div>
         </div>
         {/* copyright */}
-        <div className="border-t border-border py-6">
+        <div className="py-6 border-t border-border">
           {markdownify(copyright, "p", "text-sm text-center")}
         </div>
       </div>
