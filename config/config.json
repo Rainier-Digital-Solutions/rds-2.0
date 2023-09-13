@@ -24,13 +24,13 @@
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
+    "footer_content": "Elevate Your Digital Presence.",
     "copyright": "Designed and Developed By [Rainier Digital Solutions](https://rainierdigitalsolutions.com/)"
   },
 
   "metadata": {
     "meta_author": "Harper Foley",
-    "meta_image": "",
-    "meta_description": "A SAAS template for nextjs"
+    "meta_image": "/images/rds_triangle_no_bg.svg",
+    "meta_description": "We build and maintain websites for SMBs and startups so they can focus on what matters most: doing business. RDS is a Veteran-Owned web development company based in Seattle. Learn more."
   }
 }

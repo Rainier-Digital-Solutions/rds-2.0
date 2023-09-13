@@ -13,10 +13,10 @@ feature:
   features:
   - name: "Custom Code"
     icon: "/images/code.svg"
-    content: "We don't use bulky WordPress or Wix templates. We custom build your site to reflect your brand."
-  - name: "Domain Management"
+    content: "No bulky WordPress or Wix templates. We custom build your site to reflect your brand."
+  - name: "SEO"
     icon: "/images/oop.svg"
-    content: "No need to worry about your domain expiring or updating your DNS. We handle that."
+    content: "We optimize every page to build your authority increase your search rankings on Google."
   - name: "24h Service"
     icon: "/images/user-clock.svg"
     content: "Your business doesn't stop and neither do we. When you call, your lead developer answers."
@@ -83,7 +83,7 @@ workflow:
 # call_to_action
 call_to_action:
   title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  content: Contact us today. Let us handle the tech so you can run your business.
   image: '/images/cta.svg'
   button:
     enable: true

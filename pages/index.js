@@ -60,8 +60,8 @@ const Home = ({ frontmatter }) => {
                   <Image
                     className="mx-auto"
                     src={item.icon}
-                    width={30}
-                    height={30}
+                    width={48}
+                    height={48}
                     alt=""
                   />
                 )}
@@ -117,7 +117,7 @@ const Home = ({ frontmatter }) => {
                   {service.button.enable && (
                     <Link
                       href={service?.button.link}
-                      className="inline-flex items-center cta-link text-primary"
+                      className="inline-flex items-center font-bold cta-link text-primary"
                     >
                       {service?.button.label}
                       <Image
@@ -142,7 +142,7 @@ const Home = ({ frontmatter }) => {
           {markdownify(
             workflow.title,
             "h2",
-            "mx-auto max-w-[400px] font-bold leading-[44px]"
+            "mx-auto max-w-[600px] font-bold leading-[44px]"
           )}
           {markdownify(workflow.description, "p", "mt-3")}
         </div>
