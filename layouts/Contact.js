@@ -1,10 +1,24 @@
 import config from "@config/config.json";
 import { markdownify } from "@lib/utils/textConverter";
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
   const { title, info } = frontmatter;
   const { contact_form_action } = config.params;
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(NEXT_PUBLIC_EMAIL_ID, NEXT_PUBLIC_TEMPLATE_ID, form.current, NEXT_PUBLIC_EMAIL_KEY)
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
 
   return (
     <section className="section">
@@ -16,11 +30,13 @@ const Contact = ({ data }) => {
               className="contact-form"
               method="POST"
               action={contact_form_action}
+              ref={form}
+              onSubmit={sendEmail}
             >
               <div className="mb-3">
                 <input
                   className="w-full rounded form-input"
-                  name="name"
+                  name="from_name"
                   type="text"
                   placeholder="Peter Rainier"
                   required
@@ -29,7 +45,7 @@ const Contact = ({ data }) => {
               <div className="mb-3">
                 <input
                   className="w-full rounded form-input"
-                  name="email"
+                  name="from_email"
                   type="email"
                   placeholder="pete@example.com"
                   required
@@ -49,6 +65,7 @@ const Contact = ({ data }) => {
                   className="w-full rounded-md form-textarea"
                   rows="7"
                   placeholder="Your message"
+                  name="message"
                 />
               </div>
               <button type="submit" className="btn btn-primary">
