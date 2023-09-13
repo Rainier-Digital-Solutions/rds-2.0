@@ -3,48 +3,51 @@ title: Pricing
 layout: pricing
 draft: false
 plans:
-- title: Basic Plan
-  subtitle: Best For Small Individuals
-  price: 49
+- title: Standard Plan
+  subtitle: Best For Simple Sites
+  price: 299
   type: month
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+    - 5-Page Website
+    - Free Updates
+    - Google Analytics
+    - Hosting Fees Included
   button:
     label: Get started for free
     link: "/contact"
 
 - title: Professional Plan
-  subtitle: Best For Professionals
-  price: 69
+  subtitle: Best For Startups or Content Light Websites
+  price: 599
   type: month
   recommended: true
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-    - Cloud Service
-    - Best Dashboard
+    - 10-Page Website
+    - 1x 1,000+ Word Post / Month
+    - Free Updates
+    - Google Analytics
+    - Hosting Fees Included
   button:
     label: Get started
     link: "/contact"
 
-- title: Business Plan
-  subtitle: Best For Large Individuals
-  price: 99
+- title: Full Service Plan
+  subtitle: We Do It All For You
+  price: 999
   type: month
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+    - No Limit on Webpages
+    - Google Workspace Setup & Management
+    - Custom Email Templates & Signatures
+    - Domain Management & Hosting
+    - Quarterly SEO Report
   button:
     label: Get started
     link: "/contact"
 
 call_to_action:
-  title: Need a larger plan?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  title: Need a different plan?
+  content: Each business has its own needs. Contact us and we will work with you if you have special requirements.
   image: '/images/cta.svg'
   button:
     enable: true
