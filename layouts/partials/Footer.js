@@ -20,7 +20,7 @@ const Footer = () => {
                 {markdownify(col.name, "h2", "h4")}
                 <ul className="mt-6">
                   {col?.menu.map((item) => (
-                    <li className="mb-1 hover:text-dark/50" key={item.text}>
+                    <li className="mb-1 hover:text-primary/50" key={item.text}>
                       <Link href={item.url} rel="">
                         {item.text}
                       </Link>

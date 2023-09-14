@@ -3,7 +3,7 @@
     "title": "Rainier Digital Solutions",
     "base_url": "https://www.rainierdigitalsolutions.com",
     "favicon": "/logos/favicon.png" ,
-    "logo": "/logos/rds_full_logo_dark_no_bg.svg",
+    "logo": "/logos/rds_banner_dark.svg",
     "logo_width": "200",
     "logo_height": "60",
     "logo_text": "Rainier Digital Solutions"
@@ -30,7 +30,7 @@
 
   "metadata": {
     "meta_author": "Harper Foley",
-    "meta_image": "/logos/rds_triangle_no_bg.svg",
+    "meta_image": "/logos/rds_banner_inverse.svg",
     "meta_description": "We build and maintain websites for SMBs and startups so they can focus on what matters most: doing business. RDS is a Veteran-Owned web development company based in Seattle. Learn more."
   }
 }

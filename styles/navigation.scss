@@ -32,9 +32,9 @@
 }
 
 .nav-link {
-  @apply py-3 px-2 font-primary text-base lg:text-lg font-bold text-dark transition hover:text-[#478092] md:py-4 lg:px-3;
+  @apply py-3 px-2 font-primary text-base lg:text-lg font-bold text-dark transition hover:text-primary/50 md:py-4 lg:px-3;
 
   &-active {
-    @apply text-[#478092] underline;
+    @apply text-primary underline;
   }
 }
