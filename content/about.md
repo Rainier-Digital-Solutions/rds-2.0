@@ -1,10 +1,10 @@
 ---
 title: About Us
 meta_title: Expert Website Development - Digital Transformation - SEO | RDS
-meta_description: "We build and manage websites for U.S. startups and SMBs so they can focus on what matters: running their business. Leave the tech hassle to us. Learn more."
+description: "We build and manage websites for U.S. startups and SMBs so they can focus on what matters: running their business. Leave the tech hassle to us. Learn more."
 layout: default
-og_image: ""
-og_image_twitter: ""
+image: "/images/special/veteran-owned-business-certification.jpg"
+canonical: "https://rainierdigitalsolutions.com/about"
 ---
 #### Killing the Pain of Building & Maintaining Websites
 

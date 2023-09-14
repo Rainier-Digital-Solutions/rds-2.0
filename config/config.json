@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Rainier Digital Solutions",
-    "base_url": "/",
+    "base_url": "https://www.rainierdigitalsolutions.com",
     "favicon": "/logos/favicon.png" ,
     "logo": "/logos/rds_full_logo_dark_no_bg.svg",
     "logo_width": "200",
