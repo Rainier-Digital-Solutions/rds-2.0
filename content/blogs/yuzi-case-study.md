@@ -1,12 +1,13 @@
 ---
 title: "Case Study: Yuzi Care"
 meta_title: "Modernization - Cost Savings - Full-Service | Case Study: Yuzi Care"
-meta_description: See how we saved this Seattle startup over 300% in monthly costs through website modernization and full-service IT/domain management. Read the Case Study.
 description: See how we saved this Seattle startup over 300% in monthly costs through website modernization and full-service IT/domain management. Read the Case Study.
+excerpt: See how we saved this Seattle startup over 300% in monthly costs through website modernization and full-service IT / domain management.
 featured_image_link: "https://yuzicare.com"
 image: "/images/blog-images/yuzi-case-study/featured.png"
 date: 2023-06-09T05:00:00Z
 draft: false
+canonical: "https://rainierdigitalsolutions.com/blogs/yuzi-case-study"
 ---
 
 This case study sheds light on the challenges faced by [Yuzi Care](https://yuzicare.com), a Seattle-based B2B2C HealthTech company dedicated to redefining the maternal care experience. Struggling with an outdated website and a need to enhance user experience and cost-efficiency, Yuzi Care sought a solution that could align with their vision.

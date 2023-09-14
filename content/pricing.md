@@ -1,5 +1,8 @@
 ---
 title: Pricing
+meta_title: Cost to Build a Website - Hire a Developer - Pricing | RDS
+meta_description: We offer a variety of plans to build a website for $0 down from full-service website management, to blog copywriting, to a basic website build. Learn more here.
+canonical: "https://rainierdigitalsolutions.com/pricing"
 layout: pricing
 draft: false
 plans:
