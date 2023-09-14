@@ -37,7 +37,7 @@ const Home = ({ frontmatter }) => {
                 src={banner.image}
                 width={750}
                 height={390}
-                alt="banner image"
+                alt="Rainier Digital Solutions creates quality websites"
                 priority
               />
             </div>
@@ -102,7 +102,7 @@ const Home = ({ frontmatter }) => {
                     {/* Slides */}
                     {service?.images.map((slide, index) => (
                       <SwiperSlide key={index} className="mb-2">
-                        <Image src={slide} alt={slide.title} width={600} height={500} loading="lazy" className="rounded-md" />
+                        <Image src={slide.url} alt={slide.alt} width={600} height={500} loading="lazy" className="rounded-md" />
                       </SwiperSlide>
                     ))}
                   </Swiper>
