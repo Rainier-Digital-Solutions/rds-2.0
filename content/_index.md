@@ -75,7 +75,7 @@ services:
       link: /pricing
 
   - title: "Copywriting"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+    content: "Tired of writing your company's blog post in your \"free time\"? Let us handle your copywriting for you. Activate your audience through pitch-perfect, SEO-optimized content and copy for your brand. Our copywriters are SEO experts and will ensure your content is fill with excellent keywords so you can out index your competition."
     images:
       - url: "/images/home-page/copywriting/copywriting.png"
         alt: "Tired of writing your company's blog post in your \"free time\"? Let us handle your copywriting for you"
