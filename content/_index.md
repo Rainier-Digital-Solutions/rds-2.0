@@ -75,7 +75,7 @@ services:
       link: /pricing
 
   - title: "Copywriting"
-    content: "Tired of writing your company's blog post in your \"free time\"? Let us handle your copywriting for you. Activate your audience through pitch-perfect, SEO-optimized content and copy for your brand. Our copywriters are SEO experts and will ensure your content is fill with excellent keywords so you can out index your competition."
+    content: "Tired of writing your company's blog post in your \"free time\"? Let us handle your copywriting for you. Activate your audience through pitch-perfect, SEO-optimized content and copy for your brand. Our copywriters are SEO experts and will ensure your content is filled with excellent keywords so you can out index your competition."
     images:
       - url: "/images/home-page/copywriting/copywriting.png"
         alt: "Tired of writing your company's blog post in your \"free time\"? Let us handle your copywriting for you"
