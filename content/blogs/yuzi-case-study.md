@@ -77,16 +77,16 @@ RDS recommendations were based on the following observations:
 
 #### Results: A Modern Brand, A Modern Tech Stack, & Reduced Costs
 
-<div class="text-center">
-  <h3 class="text-xl">Modern Style & Custom Branded Website</h3>
-  <div class="flex items-center justify-between text-center">
+<div className="text-center">
+  <h3 className="text-xl">Modern Style & Custom Branded Website</h3>
+  <div className="flex items-center justify-between text-center">
     <div>
       <h4>After</h4>
       <a href="https://yuzicare.com" target="_blank">
         <img
           src='/images/blog-images/yuzi-case-study/yuzi-after.png'
           alt="Yuzi Care website by Rainier Digital Solutions"
-          class="max-h-[60vh]"
+          className="max-h-[60vh]"
         />
       </a>
     </div>
@@ -95,17 +95,17 @@ RDS recommendations were based on the following observations:
       <img
         src='/images/blog-images/yuzi-case-study/yuzi-before.png'
         alt="Yuzi Care Wix website"
-        class="max-h-[60vh]"
+        className="max-h-[60vh]"
       />
     </div>
   </div>
 </div>
 
-<div class="flex flex-col items-center justify-center mt-4 text-center">
-  <h3 class="text-xl">3.5x Monthly Cost Savings</h3>
-  <table class="table-auto">
-    <thead class="text-center bg-gray-200">
-      <tr class="font-bold">
+<div className="flex flex-col items-center justify-center mt-4 text-center">
+  <h3 className="text-xl">3.5x Monthly Cost Savings</h3>
+  <table className="table-auto">
+    <thead className="text-center bg-gray-200">
+      <tr className="font-bold">
         <th></th>
         <th>RDS Solution</th>
         <th>Wix</th>
@@ -113,53 +113,53 @@ RDS recommendations were based on the following observations:
     </thead>
     <tbody>
       <tr>
-        <td class="py-2 text-left">Hosting</td>
-        <td class="py-2 text-right border-b border-gray-300">$0 / month</td>
-        <td class="py-2 text-right border-b border-gray-300">$30 / month</td>
+        <td className="py-2 text-left">Hosting</td>
+        <td className="py-2 text-right border-b border-gray-300">$0 / month</td>
+        <td className="py-2 text-right border-b border-gray-300">$30 / month</td>
       </tr>
       <tr>
-        <td class="py-2 text-left">Performance Boosting</td>
-        <td class="py-2 text-right border-b border-gray-300">$0 / month</td>
-        <td class="py-2 text-right border-b border-gray-300">$4 / month</td>
+        <td className="py-2 text-left">Performance Boosting</td>
+        <td className="py-2 text-right border-b border-gray-300">$0 / month</td>
+        <td className="py-2 text-right border-b border-gray-300">$4 / month</td>
       </tr>
       <tr>
-        <td class="py-2 text-left">Site Analytics</td>
-        <td class="py-2 text-right border-b border-gray-300">$0 / month</td>
-        <td class="py-2 text-right border-b border-gray-300">$28 / month</td>
+        <td className="py-2 text-left">Site Analytics</td>
+        <td className="py-2 text-right border-b border-gray-300">$0 / month</td>
+        <td className="py-2 text-right border-b border-gray-300">$28 / month</td>
       </tr>
       <tr>
-        <td class="py-2 text-left">Domain Name</td>
-        <td class="py-2 text-right border-b border-gray-300">$1 / month</td>
-        <td class="py-2 text-right border-b border-gray-300">$3 / month</td>
+        <td className="py-2 text-left">Domain Name</td>
+        <td className="py-2 text-right border-b border-gray-300">$1 / month</td>
+        <td className="py-2 text-right border-b border-gray-300">$3 / month</td>
       </tr>
       <tr>
-        <td class="py-2 text-left">Email</td>
-        <td class="py-2 text-right border-b border-gray-300">$23 / month</td>
-        <td class="py-2 text-right border-b border-gray-300">$21 / month</td>
+        <td className="py-2 text-left">Email</td>
+        <td className="py-2 text-right border-b border-gray-300">$23 / month</td>
+        <td className="py-2 text-right border-b border-gray-300">$21 / month</td>
       </tr>
       <tr>
-        <td class="py-2 text-left">Hosting</td>
-        <td class="py-2 text-right border-b border-gray-300">$1 / month</td>
-        <td class="py-2 text-right border-b border-gray-300">$3 / month</td>
+        <td className="py-2 text-left">Hosting</td>
+        <td className="py-2 text-right border-b border-gray-300">$1 / month</td>
+        <td className="py-2 text-right border-b border-gray-300">$3 / month</td>
       </tr>
-        <tr class="font-bold bg-gray-200">
-          <td class="py-2 text-left">Total</td>
-          <td class="py-2 text-right">$25 / month</td>
-          <td class="py-2 text-right">$86 / month</td>
+        <tr className="font-bold bg-gray-200">
+          <td className="py-2 text-left">Total</td>
+          <td className="py-2 text-right">$25 / month</td>
+          <td className="py-2 text-right">$86 / month</td>
         </tr>
     </tbody>
   </table>
 </div>
 
-<div class="mt-4 text-center">
-  <h3 class="text-xl">Improved Performance 40%</h3>
-  <div class="flex items-center justify-between gap-10 text-center">
+<div className="mt-4 text-center">
+  <h3 className="text-xl">Improved Performance 40%</h3>
+  <div className="flex items-center justify-between gap-10 text-center">
     <div>
       <h4>After</h4>
       <img
         src='/images/blog-images/yuzi-case-study/yuzicare_lighthouse.png'
         alt="Yuzi Care website by Rainier Digital Solutions"
-        class="max-h-[60vh]"
+        className="max-h-[60vh]"
       />
     </div>
     <div>
@@ -167,23 +167,23 @@ RDS recommendations were based on the following observations:
       <img
         src='/images/blog-images/yuzi-case-study/yuzimoon_lighthouse.png'
         alt="Yuzi Care Wix website"
-        class="max-h-[60vh]"
+        className="max-h-[60vh]"
       />
     </div>
   </div>
 </div>
 
-<div class="flex flex-col items-center mt-4 mb-12">
-  <h3 class="text-xl">Custom Email Signature</h3>
+<div className="flex flex-col items-center mt-4 mb-12">
+  <h3 className="text-xl">Custom Email Signature</h3>
   <img
     src='/images/blog-images/yuzi-case-study/email-signature.png'
     alt="Yuzi Care custom email signature"
   />
 </div>
 
-<div class="flex flex-col items-center mt-4 mb-12">
-  <h3 class="text-xl">Modern Branding</h3>
-  <div class="flex flex-wrap justify-center">
+<div className="flex flex-col items-center mt-4 mb-12">
+  <h3 className="text-xl">Modern Branding</h3>
+  <div className="flex flex-wrap justify-center">
     <img
       src='/images/blog-images/yuzi-case-study/yuzi_only_banner.png'
       alt="Yuzi Care Banner Logo"
@@ -195,7 +195,7 @@ RDS recommendations were based on the following observations:
     <img
       src='/images/blog-images/yuzi-case-study/yuzi_square_logo.png'
       alt="Yuzi Care Square Logo"
-      class="h-[200px] w-[200px]"
+      className="h-[200px] w-[200px]"
     />
   </div>
 </div>

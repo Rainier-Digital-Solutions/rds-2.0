@@ -14,10 +14,10 @@ const BlogPagination = ({ postIndex, posts, currentPage, pagination }) => {
   const totalPages = Math.ceil(posts.length / pagination);
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
   const { frontmatter, content } = postIndex;
-  const { title } = frontmatter;
+  const { title, image, description } = frontmatter;
 
   return (
-    <Base title={title}>
+    <Base title={title} image={image} description={description}>
       <section className="section">
         <div className="container">
           {markdownify(title, "h1", "h1 text-center font-normal text-[56px]")}

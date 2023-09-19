@@ -54,7 +54,7 @@ const Base = ({
         {/* og-description */}
         <meta
           property="og:description"
-          content={plainify(description ? description : meta_description)}
+          content={plainify(description ?? meta_description ?? config.site.description)}
         />
         <meta property="og:type" content="website" />
         <meta

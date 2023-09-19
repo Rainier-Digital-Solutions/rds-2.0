@@ -52,10 +52,10 @@ Next.js offers multiple rendering methods, but not all are ideal for SEO. Rainie
 
 #### Pairing Next.js with a Headless Content Management Solution
 
-To truly empower your website, it's essential to combine Next.js with a headless content management solution (CMS). This approach frees your content team to manage website content seamlessly. Rainier Digital Solutions recommends <a href="https://sanity.io" target="_blank" class="font-bold text-primary hover:text-primary/50">Sanity.io</a> as a headless website builder, and offers a custom page builder interface for your content team. However, we can integrate into any headless CMS, including repurposing your existing Wordpress site as a headless CMS.
+To truly empower your website, it's essential to combine Next.js with a headless content management solution (CMS). This approach frees your content team to manage website content seamlessly. Rainier Digital Solutions recommends <a href="https://sanity.io" target="_blank" className="font-bold text-primary hover:text-primary/50">Sanity.io</a> as a headless website builder, and offers a custom page builder interface for your content team. However, we can integrate into any headless CMS, including repurposing your existing Wordpress site as a headless CMS.
 
 By choosing Rainier Digital Solutions to build your custom website and integrating it with a headless CMS, you'll harness the power of SEO optimization, fast-loading pages, and content management freedom.
 
 ##### Don't let templated solutions hold your business back!
 
-<a href="/contact" class="font-bold text-primary hover:text-primary/50">Contact Us</a> today to boost your online presence and drive success.
+<a href="/contact" className="font-bold text-primary hover:text-primary/50">Contact Us</a> today to boost your online presence and drive success.

@@ -5,6 +5,7 @@ import Default from "@layouts/Default";
 import Faq from "@layouts/Faq";
 import Pricing from "@layouts/Pricing";
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
+import { CONFIG_FILES } from "next/dist/shared/lib/constants";
 
 // for all regular pages
 const RegularPages = ({ data }) => {
@@ -15,8 +16,8 @@ const RegularPages = ({ data }) => {
   return (
     <Base
       title={title}
-      description={description ? description : content.slice(0, 120)}
-      meta_title={meta_title}
+      description={description ?? content.slice(0, 120)}
+      meta_title={meta_title ?? title}
       image={image}
       noindex={noindex}
       canonical={canonical}
