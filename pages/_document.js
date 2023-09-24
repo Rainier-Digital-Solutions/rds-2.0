@@ -1,5 +1,6 @@
 import config from "@config/config.json";
 import { Head, Html, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 const Document = () => {
   // destructuring items from config object
@@ -32,6 +33,11 @@ const Document = () => {
         <Main />
         {/* <TwSizeIndicator /> */}
         <NextScript />
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER}" height="0" width="0" style="display: none; visibility: hidden;" />`,
+          }}
+        />
       </body>
     </Html>
   );
