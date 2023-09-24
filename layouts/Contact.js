@@ -1,4 +1,5 @@
 import config from "@config/config.json";
+import { useRouter } from "next/router";
 import { markdownify } from "@lib/utils/textConverter";
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
@@ -13,6 +14,7 @@ const Contact = ({ data }) => {
   const { emailServiceId, emailTemplateId, emailPublicKey } = emailConfig;
   const [showToast, setShowToast] = useState(false);
   const [fromName, setFromName] = useState('');
+  const router = useRouter();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -30,6 +32,12 @@ const Contact = ({ data }) => {
           form.current.reset();
           setFromName(enteredFromName);
           setShowToast(true);
+
+          router.push('/thankyou');
+
+          setTimeout(() => {
+            router.back();
+          }, 2000);
         })
         .catch((error) => {
           console.log(error.text);
