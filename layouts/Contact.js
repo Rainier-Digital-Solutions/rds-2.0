@@ -31,9 +31,9 @@ const Contact = ({ data }) => {
           console.log(result.text);
           form.current.reset();
           setFromName(enteredFromName);
-          setShowToast(true);
+          // setShowToast(true);
 
-          router.push('/thankyou');
+          router.push('/thank-you');
 
           setTimeout(() => {
             router.back();

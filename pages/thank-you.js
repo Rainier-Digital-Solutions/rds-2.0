@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const ThankYouPage = () => {
   return (
@@ -14,6 +15,16 @@ const ThankYouPage = () => {
       <Link href="/" className="inline-block mt-4 text-blue-500 hover:underline">
         Return to Home
       </Link>
+      <div className='my-5'>
+        <Image
+          src="/images/special/redirect.png"
+          alt="We are redirecting you back to the previous page."
+          width={768}
+          height={768}
+          priority
+          className='mx-auto'
+        />
+      </div>
     </div>
   );
 };
