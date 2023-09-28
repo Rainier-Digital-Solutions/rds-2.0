@@ -30,17 +30,17 @@ While cookie-cutter website builders may appear cost-effective at the outset, th
 
 #### 1. **Performance Pitfalls**
 
-- **Data-Driven Insight**: Extensive studies indicate that websites with sluggish loading times witness higher bounce rates. Each additional second of delay can lead to a 7% drop in conversions. (*Source: Google*)
+- **Data-Driven Insight**: Extensive studies indicate that websites with sluggish loading times witness higher bounce rates. Each additional second of delay can lead to a 7% drop in conversions. [(*Source: Akamai*)](https://www.akamai.com/newsroom/press-release/akamai-releases-spring-2017-state-of-online-retail-performance-report)
 - **Case Study**: Take Company A as an example. Their generic website had a 6-second load time, resulting in a staggering 50% bounce rate. After transitioning to a custom solution with a swift 2-second load time, bounce rates plummeted to 20%, culminating in a 30% revenue surge.
 
 #### 2. **SEO Repercussions**
 
-- **Data-Driven Insight**: Google's algorithms heavily favor swift-loading websites. A mere one-second delay in mobile load times can result in a 20% dip in mobile conversion rates. (*Source: Think with Google*)
+- **Data-Driven Insight**: Google's algorithms heavily favor swift-loading websites. A mere one-second delay in mobile load times can result in a 20% dip in mobile conversion rates. [(*Source: Think with Google*)](https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-conversion-data/)
 - **Case Study**: Company B's generic website struggled to secure a decent spot in search engine rankings due to its sluggish load times. Subsequent adoption of a custom website, bolstering performance, triggered a 50% surge in organic search traffic within just three months.
 
 #### 3. **Customer Exodus**
 
-- **Data-Driven Insight**: An astonishing 53% of mobile site visitors abandon pages taking longer than three seconds to load. (*Source: Google*)
+- **Data-Driven Insight**: An astonishing 53% of mobile site visitors abandon pages taking longer than three seconds to load. [(*Source: Google*)](https://blog.google/products/admanager/the-need-for-mobile-speed/#:~:text=3...&text=Slow%20page%20load%20times%20are,than%203%20seconds%20to%20load&text=One%20out%20of%20two%20people,in%20less%20than%202%20seconds&text=46%25%20of%20people%20say%20that,the%20web%20on%20mobile%20devices)
 - **Case Study**: Company C's generic website lumbered along with a ponderous 5-second load time, steering a whopping 60% of visitors toward the exit. Upon transitioning to a custom website, replete with a 2-second load time, bounce rates dwindled to 15%, fostering a 40% spike in conversions.
 
 ### Custom Websites: An Investment, Not an Expense
@@ -49,7 +49,7 @@ Custom-built websites should not be regarded as mere expenses; they represent an
 
 #### 1. **Performance Payoffs**
 
-- **Data-Driven Insight**: Custom websites are meticulously optimized for speed. Studies confirm that even a one-second improvement in page load time can catapult conversion rates by up to 27%. (*Source: Google*)
+- **Data-Driven Insight**: Custom websites are meticulously optimized for speed. Studies confirm that even a one-second improvement in page load time can catapult conversion rates by up to 27%. [(*Source: Google*)](https://www.thinkwithgoogle.com/_qs/documents/4290/c676a_Google_MobileSiteSpeed_Playbook_v2.1_digital_4JWkGQT.pdf)
 - **Case Study**: Company D's foray into a custom website reduced load times from 4 seconds to a mere 1 second. This orchestrated a remarkable 35% surge in conversions, along with a notable 20% rise in search engine rankings.
 
 #### 2. **SEO Supremacy**
@@ -83,12 +83,14 @@ In the realm of websites, appearances can often be deceiving. While cookie-cutte
 
 ### Go Custom, Boost Business
 
-Ready to discuss how a custom website can catalyze a transformation in your business? Reach out to us for a free consultation. Let's explore the exciting potential of elevating your online presence and steering your business towards sustainable growth.
+Ready to discuss how a custom website can catalyze a transformation in your business? <a href='https://rainierdigitalsolutions.com/contact' className='font-bold'>Reach out to us for a free consultation.</a> Let's explore the exciting potential of elevating your online presence and steering your business towards sustainable growth.
 
 ---
 
 #### Additional Resources
 
-- [Case Study: How Custom Websites Outperform Generic Builders](#)
-- [Free Website Performance Analysis Tool](#)
-- [Book a Free Consultation](#)
+- [Case Study: Yzui Care - How Custom Websites Outperform Generic Builders](https://rainierdigitalsolutions.com/blogs/yuzi-case-study)
+- [Why Custom Websites are a Game Changer for Small Businesses](https://rainierdigitalsolutions.com/blogs/why-custom-websites-are-a-game-changer-for-small-business-owners)
+- [Custom Website Advantages](https://rainierdigitalsolutions.com/blogs/custom-website-advantages)
+- [Free Website Performance Analysis Tool](https://www.webpagetest.org/)
+- <a href='https://rainierdigitalsolutions.com/contact' className='font-bold'>Book a free consultation.</a>
