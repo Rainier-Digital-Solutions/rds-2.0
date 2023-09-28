@@ -54,7 +54,7 @@ const Posts = ({ posts }) => {
         <div key={`key-${i}`} className="mb-8 col-12 sm:col-6 lg:col-4">
           {post.frontmatter.image && (
             <Link
-              href={`/${blog_folder}/${posts[0].slug}`}
+              href={`/${blog_folder}/${post.slug}`}
             >
               <Image
                 className="rounded-lg"
