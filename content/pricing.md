@@ -7,7 +7,7 @@ layout: pricing
 draft: false
 plans:
 - title: Standard Plan
-  subtitle: Best For Simple Sites
+  subtitle: Best for Informational Sites
   price: 299
   type: month
   features:
@@ -15,12 +15,13 @@ plans:
     - Free Updates
     - Google Analytics
     - Hosting Fees Included
+    - Monthly Performance Audit
   button:
-    label: Get started for free
+    label: Get Started
     link: "/contact"
 
 - title: Professional Plan
-  subtitle: Best For Startups or Content Light Websites
+  subtitle: Best for Websites w/ Blogs
   price: 599
   type: month
   recommended: true
@@ -31,7 +32,7 @@ plans:
     - Google Analytics
     - Hosting Fees Included
   button:
-    label: Get started
+    label: Get Started
     link: "/contact"
 
 - title: Full Service Plan
@@ -45,11 +46,26 @@ plans:
     - Domain Management & Hosting
     - Quarterly SEO Report
   button:
-    label: Get started
+    label: Get Started
+    link: "/contact"
+
+- title: SEO Support + Full Service Plan
+  subtitle: Your Personal Web Dev Team
+  price: 1,999
+  type: month
+  features:
+    - "Full Service Support plus:"
+    - Competitor Analysis
+    - Keyword Research
+    - On-Page SEO Optimization
+    - Technical SEO Optimization
+    - Marketing Support
+  button:
+    label: Get Started
     link: "/contact"
 
 call_to_action:
-  title: Need a different plan?
+  title: Looking for something else?
   content: Each business has its own needs. Contact us and we will work with you if you have special requirements.
   image: '/images/cta.svg'
   button:

@@ -57,7 +57,7 @@ We reserve the right to terminate services, with or without cause, at any time. 
 
 ### 8. Dispute Resolution
 
-Any disputes arising from these terms will be subject to binding arbitration in accordance with the rules of [Arbitration Organization]. Both parties agree to abide by the arbitrator's decision, which will be final and binding.
+Any disputes arising from these terms will be subject to binding arbitration in accordance with the rules of King County Court, Civil Arbitration Group. Both parties agree to abide by the arbitrator's decision, which will be final and binding.
 
 ### 9. Changes to Terms
 
