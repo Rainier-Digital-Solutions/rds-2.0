@@ -4,8 +4,9 @@ banner:
   content: "We design, build, and manage websites for Small Businesses and Startups so they can focus on what matters: running their business. No need to worry about purchasing domains, updating websites, tracking SEO trends; we do it all for you."  
   image: /images/banner-art.svg
   button:
-    label: "Contact Us"
-    link: "/contact"
+    enable: true
+    label: "Book a Free Consultation Today"
+    link: "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1gPAYTRg3q4mhJzvaBOd8y4C9EVbOeShOB5JCz0QrQt39VrBidjf1uejvqeffn-9S-p3hwXbqR"
 
 # feature
 feature: 
@@ -100,7 +101,7 @@ video:
 workflow: 
   title: "Experience the Best With Us"
   image: "/images/banner.svg"
-  description: "Website Design | Website Performance | SEO | Customer Service"
+  description: "Web Design | Website Performance | SEO | Customer Service"
 
 # call_to_action
 call_to_action:
@@ -109,6 +110,6 @@ call_to_action:
   image: '/images/cta.svg'
   button:
     enable: true
-    label: "Contact Us"
-    link: "/contact"
+    label: "Book a Free Consultation"
+    link: "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1gPAYTRg3q4mhJzvaBOd8y4C9EVbOeShOB5JCz0QrQt39VrBidjf1uejvqeffn-9S-p3hwXbqR"
 ---
