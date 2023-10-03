@@ -14,7 +14,7 @@ In today's fast-paced digital age, where every second counts, slow websites are 
 
 ## The Speed Imperative
 
-Think about the last time you landed on a website that crawled along like a tortoise. Did you stick around, patiently waiting for it to load? Probably not. You hit the back button and explored other options. Well, you're not alone. Research shows that ***47%*** of **consumers expect a web page to load in 2 seconds or less**, and 40% will abandon a website that takes more than 3 seconds to load[^1^].
+Think about the last time you landed on a website that crawled along like a tortoise. Did you stick around, patiently waiting for it to load? Probably not. You hit the back button and explored other options. Well, you're not alone. Research shows that <a href="https://blog.kissmetrics.com/wp-content/uploads/2011/04/loading-time.pdf" target="_blank" rel="noopener noreferrer follow" class="underline decoration-primary">***47%*** of **consumers expect a web page to load in 2 seconds or less**</a>, and 40% will abandon a website that takes more than 3 seconds to load.
 
 ## The Bounce Rate Blues
 
@@ -22,11 +22,11 @@ Now, here's where it gets even more alarming. A slow website directly affects yo
 
 ## Google's Need for Speed
 
-Let's talk about Google—the gatekeeper to the digital kingdom. **Google's algorithms consider page loading speed as a ranking factor**. In simple terms, slow websites are penalized in search results, making it challenging for potential customers to find you. In fact, Google reported that as page load time goes from one second to five seconds, the probability of bounce increases by 90%[^2^].
+Let's talk about Google—the gatekeeper to the digital kingdom. **Google's algorithms consider page loading speed as a ranking factor**. In simple terms, slow websites are penalized in search results, making it challenging for potential customers to find you. In fact, <a href="https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/" target="_blank" rel="noopener noreferrer follow" class="font-bold underline decoration-primary">Google reported that as page load time goes from one second to five seconds, the probability of bounce increases by 90%</a>.
 
 ## The Mobile-First World
 
-In an era where we're glued to our smartphones, mobile-friendliness is not just a bonus; it's imperative. **Slow-loading websites are even more agonizing on mobile devices** with limited bandwidth and processing power. **Google's mobile-first indexing means that a slow mobile site can harm your overall search rankings**, impacting both mobile and desktop search results. Research indicates that ***53%*** of **mobile site visitors leave a page that takes longer than three seconds to load**[^3^].
+In an era where we're glued to our smartphones, mobile-friendliness is not just a bonus; it's imperative. **Slow-loading websites are even more agonizing on mobile devices** with limited bandwidth and processing power. **Google's mobile-first indexing means that a slow mobile site can harm your overall search rankings**, impacting both mobile and desktop search results. Research indicates that <a href="https://blog.google/products/admanager/the-need-for-mobile-speed/#:~:text=3...&text=Slow%20page%20load%20times%20are,than%203%20seconds%20to%20load&text=One%20out%20of%20two%20people,in%20less%20than%202%20seconds&text=46%25%20of%20people%20say%20that,the%20web%20on%20mobile%20devices" target="_blank" rel="noopener noreferrer follow" class="font-bold underline decoration-primary">***53%*** of **mobile site visitors leave a page that takes longer than three seconds to load**.</a>
 
 ## Custom Websites: Speed Demons for Your Business
 
@@ -34,11 +34,11 @@ So, now that we've established why website speed matters, what's the solution? E
 
 ## Performance Optimization
 
-Custom websites provide unparalleled performance optimization. Every aspect, from code to images, is scrutinized and optimized to provide a seamless user experience. The result? Faster load times, lower bounce rates, and improved search engine rankings. How are custom websites doing this? Unlike WordPress, Wix, SquareSpace, or GoDaddy templated sites, modern web development frameworks like [Next.js](https://nextjs.org) automatically optimize your website for performance across all dimensions. For example, Next.js comes with built in font optimization, image optimization, link optimization, and various SEO features that allow your website to get found.
+Custom websites provide unparalleled performance optimization. Every aspect, from code to images, is scrutinized and optimized to provide a seamless user experience. The result? Faster load times, lower bounce rates, and improved search engine rankings. How are custom websites doing this? Unlike WordPress, Wix, SquareSpace, or GoDaddy templated sites, modern web development frameworks like <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer follow" class="font-bold underline decoration-primary">Next.js</a> automatically optimize your website for performance across all dimensions. For example, Next.js comes with built in font optimization, image optimization, link optimization, and various SEO features that allow your website to get found.
 
 ## Future-Proofing Your Business
 
-Investing in a custom website is not just about immediate gains; it's a long-term strategy. As technology evolves, your website needs to adapt. Custom websites are more flexible, allowing for easy updates and scalability. This means your site can evolve with your business and stay competitive. Case in point, Walmart found that for every one-second improvement in page load time, conversions increased by 2%[^4^].
+Investing in a custom website is not just about immediate gains; it's a long-term strategy. As technology evolves, your website needs to adapt. Custom websites are more flexible, allowing for easy updates and scalability. This means your site can evolve with your business and stay competitive. Case in point, <a href="https://www.cloudflare.com/learning/performance/more/website-performance-conversion-rates/" rel="noopener noreferrer follow" class="font-bold underline decoration-primary">Walmart found that for every one-second improvement in page load time, conversions increased by 2%.</a>
 
 ## Takeaway
 
@@ -51,10 +51,5 @@ Embrace <span class="font-bold underline decoration-primary text-primary">*speed
 ### Ready to discuss how we can turbocharge your website's performance?
 
 <div class="flex items-center justify-center align-middle">
-  <a class="btn btn-primary" href="/contact">Contact Us Today!</a>
+  <a class="mb-4 btn btn-primary me-4" rel="noopener noreferrer follow" href="/contact">Contact Us Today!</a>
 </div>
-
-[^1^]: https://blog.kissmetrics.com/loading-time/
-[^2^]: https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/
-[^3^]: https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/
-[^4^]: https://webperformance.today/research/walmart/
