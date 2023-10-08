@@ -72,7 +72,7 @@ const Social = ({ source, className }) => {
             aria-label="facebook"
             href={facebook}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoFacebook />
           </a>
@@ -84,7 +84,7 @@ const Social = ({ source, className }) => {
             aria-label="twitter"
             href={twitter}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoTwitter />
           </a>
@@ -96,7 +96,7 @@ const Social = ({ source, className }) => {
             aria-label="instagram"
             href={instagram}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoInstagram />
           </a>
@@ -108,7 +108,7 @@ const Social = ({ source, className }) => {
             aria-label="youtube"
             href={youtube}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoYoutube />
           </a>
@@ -120,7 +120,7 @@ const Social = ({ source, className }) => {
             aria-label="linkedin"
             href={linkedin}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoLinkedin />
           </a>
@@ -132,7 +132,7 @@ const Social = ({ source, className }) => {
             aria-label="github"
             href={github}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoGithub />
           </a>
@@ -144,7 +144,7 @@ const Social = ({ source, className }) => {
             aria-label="gitlab"
             href={gitlab}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoGitlab />
           </a>
@@ -156,7 +156,7 @@ const Social = ({ source, className }) => {
             aria-label="discord"
             href={discord}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoDiscord />
           </a>
@@ -168,7 +168,7 @@ const Social = ({ source, className }) => {
             aria-label="slack"
             href={slack}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoSlack />
           </a>
@@ -180,7 +180,7 @@ const Social = ({ source, className }) => {
             aria-label="medium"
             href={medium}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoMedium />
           </a>
@@ -192,7 +192,7 @@ const Social = ({ source, className }) => {
             aria-label="codepen"
             href={codepen}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoCodepen />
           </a>
@@ -204,7 +204,7 @@ const Social = ({ source, className }) => {
             aria-label="bitbucket"
             href={bitbucket}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoBitbucket />
           </a>
@@ -216,7 +216,7 @@ const Social = ({ source, className }) => {
             aria-label="dribbble"
             href={dribbble}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoDribbble />
           </a>
@@ -228,7 +228,7 @@ const Social = ({ source, className }) => {
             aria-label="behance"
             href={behance}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoBehance />
           </a>
@@ -240,7 +240,7 @@ const Social = ({ source, className }) => {
             aria-label="pinterest"
             href={pinterest}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoPinterest />
           </a>
@@ -252,7 +252,7 @@ const Social = ({ source, className }) => {
             aria-label="soundcloud"
             href={soundcloud}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoSoundcloud />
           </a>
@@ -264,7 +264,7 @@ const Social = ({ source, className }) => {
             aria-label="tumblr"
             href={tumblr}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoTumblr />
           </a>
@@ -276,7 +276,7 @@ const Social = ({ source, className }) => {
             aria-label="reddit"
             href={reddit}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoReddit />
           </a>
@@ -288,7 +288,7 @@ const Social = ({ source, className }) => {
             aria-label="vk"
             href={vk}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoVk />
           </a>
@@ -300,7 +300,7 @@ const Social = ({ source, className }) => {
             aria-label="whatsapp"
             href={whatsapp}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoWhatsapp />
           </a>
@@ -312,7 +312,7 @@ const Social = ({ source, className }) => {
             aria-label="snapchat"
             href={snapchat}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoSnapchat />
           </a>
@@ -324,7 +324,7 @@ const Social = ({ source, className }) => {
             aria-label="vimeo"
             href={vimeo}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoVimeo />
           </a>
@@ -336,7 +336,7 @@ const Social = ({ source, className }) => {
             aria-label="tiktok"
             href={tiktok}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoTiktok />
           </a>
@@ -348,7 +348,7 @@ const Social = ({ source, className }) => {
             aria-label="foursquare"
             href={foursquare}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoFoursquare />
           </a>
@@ -360,7 +360,7 @@ const Social = ({ source, className }) => {
             aria-label="skype"
             href={skype}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoSkype />
           </a>
@@ -372,7 +372,7 @@ const Social = ({ source, className }) => {
             aria-label="website"
             href={website}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoGlobeOutline />
           </a>
@@ -384,7 +384,7 @@ const Social = ({ source, className }) => {
             aria-label="rss feed"
             href={rss}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoRss />
           </a>
@@ -410,7 +410,7 @@ const Social = ({ source, className }) => {
             aria-label="location"
             href={address}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLocation />
           </a>
