@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions
-meta_title: How Much is a Website - Are there Refunds - FAQ | RDS
-description: "Have a question about our services? Read our FAQ here."
+meta_title: How Much is a Website - Special Discounts - FAQ | RDS
+meta_description: "Have a question about our services? Read our FAQ here."
 canonical: "https://rainierdigitalsolutions.com/faq"
 layout: faq
 draft: false

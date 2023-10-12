@@ -22,7 +22,7 @@ const Home = ({ frontmatter }) => {
           <div className="text-center row">
             <div className="mx-auto lg:col-10">
               <h1 className="font-bold font-primary">{banner.title}</h1>
-              <p className="mt-4">{markdownify(banner.content)}</p>
+              <p className="max-w-3xl mx-auto mt-4 text-lg">{markdownify(banner.content)}</p>
               {banner.button.enable && (
                 <Link
                   className="mt-4 btn btn-primary"

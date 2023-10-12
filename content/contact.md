@@ -3,7 +3,6 @@ title: "Contact Us"
 meta_title: "Leave the Tech to Us - Contact Us Today | RDS"
 description: "Offload the drudgeries of building and maintaining your websites so you can run your business. Contact us here."
 canonical: "https://rainierdigitalsolutions.com/contact"
-image: "/logos/rds_triangle_no_bg.svg"
 layout: "contact"
 draft: false
 info: 

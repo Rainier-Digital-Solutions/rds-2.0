@@ -1,7 +1,7 @@
 ---
 banner:
   title: Leave the Tech to Us
-  content: "We design, build, and manage websites for Small Businesses and Startups so they can focus on what matters: running their business. No need to worry about purchasing domains, updating websites, tracking SEO trends; we do it all for you."  
+  content: "We make, market, and maintain websites for Small Businesses and Startups so they can focus on what matters: running the business. No need to worry about purchasing domains, updating websites, tracking SEO trends; we do it all for you."  
   image: /images/banner-art.svg
   button:
     enable: true
@@ -15,21 +15,21 @@ feature:
   - name: "Custom Code"
     icon: "/images/code.svg"
     content: "No bulky WordPress or Wix templates. We custom build your site to reflect your brand."
+  - name: "Faster Response"
+    icon: "/images/speedometer.svg"
+    content: "We build with the latest technology to get you 100% performance, improving search rankings."
   - name: "SEO"
     icon: "/images/seo.svg"
     content: "We optimize every page to build your authority & increase your search rankings on Google."
-  - name: "24h Service"
+  - name: "Continuous Support"
     icon: "/images/user-clock.svg"
-    content: "Your business doesn't stop and neither do we. When you call, your lead developer answers."
+    content: "Our work does not stop once we build your website; we stay on and ensure it works flawlessly every day."
+  - name: "Copywriting & Blog Content"
+    icon: "/images/copywriting.svg"
+    content: "Tired of writing updates to your website & blog in your \"free time\"? We do that for you."
   - name: "Value for Money"
     icon: "/images/love.svg"
-    content: "All the benefits of having a really nerdy IT guy on staff, but 1/10th the salary."
-  - name: "Faster Response"
-    icon: "/images/speedometer.svg"
-    content: "Speed doesn't kill online, unless its low speed. We build with the latest technology to get you 100% performance."
-  - name: "Cloud Support"
-    icon: "/images/cloud.svg"
-    content: "Need a cloud-based solution? No problem. We'll pick the best provider based on your needs."
+    content: "All the benefits of having a software engineer on staff, but a fraction the cost."
 
 # services
 services:
