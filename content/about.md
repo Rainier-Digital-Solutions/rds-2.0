@@ -1,42 +1,50 @@
 ---
 title: About Us
-meta_title: Expert Website Development - Digital Transformation - SEO | RDS
-description: "We build and manage websites for U.S. startups and SMBs so they can focus on what matters: running their business. Leave the tech hassle to us. Learn more."
+meta_title: Expert Website Development - Turnkey Solutions - Digital Transformation - SEO | RDS
+description: "Our team of technical experts Make, Market, &amp; Maintain custom websites specifically designed to showcase your business&#39;s unique offerings to rank highly on Google. Leave the tech hassle to us. Learn more."
 layout: default
 image: "/images/special/veteran-owned-business-certification.jpg"
 canonical: "https://rainierdigitalsolutions.com/about"
 ---
-#### Killing the Pain of Building & Maintaining Websites
+### Killing the Pain of Building & Maintaining Websites
 
-Rainier Digital Solutions wants to take away the burden of building and maintaining websites for startups and Small & Medium Businesses (SMBs). Too many times these types of businesses have to split their attention between what matters to their core business (generating leads, attending to customers, developing the next generation of software, etc.) to attend to the mundane task of building a website and keeping it updated with content relevant to their customers.
+Rainier Digital Solutions wants to take away the burden of building and maintaining websites for startups and Small & Medium Businesses (SMBs).
 
-#### SMBs
+You should be focused on **running and growing your business**, not building and managing your website.
 
-In the world of business, small to medium-sized enterprises (SMBs) are the backbone of various industries. SMB owners possess operational acumen and profound sector expertise, enabling them to navigate their industries with ease. However, their unique strengths often lead to a crucial challenge — digital presence. This is where Rainier Digital Solutions steps in, offering a tailored solution for SMBs with a distinct focus on web development and SEO optimization.
+Rainier Digital Solutions <span class="font-bold text-primary">offers full-service, white glove solutions</span> that lead to *Easy Everday Engagement* on your website.
 
-We're here to bridge the gap between operational excellence and digital proficiency. By partnering with us, SMBs tap into a wealth of expertise in web development and SEO optimization. Our dedicated team of professionals, all veterans with coding bootcamp or professional experience, ensures that every digital endeavor is a masterpiece.
+#### How do we do this?
 
-#### Technology Startups
+By letting our team of technical experts **Make, Market, &amp; Maintain** a custom website specifically designed to showcase your business&#39;s unique offerings to rank highly on Google.
 
-In the dynamic landscape of technology startups, visionary founders are driven by innovation and ambition. However, the path to securing vital investments demands a multifaceted approach — one where Rainier Digital Solutions plays a pivotal role. Our unique focus on technology startups stems from the founder's firsthand experience in technology investment banking, equipping us with insights that pave the way for startups to stand out in a crowded market.
+#### Let&#39;s break out those 3Ms:
 
-Rainier Digital Solutions steps in as a strategic ally, anchoring startups with a robust digital presence for investors while they focus on building their technological marvels. Our expertise bridges the gap between technology and investor readiness, transforming a startup’s website, online pitch deck, and prototype applications into polished, investor-friendly assets. By entrusting these aspects to us, founders can concentrate on propelling their core offerings and securing investments that propel growth.
+##### Make =&gt; Dedicated Developer Depot
 
-#### Full-Service
+- Our Dedicated Developer Depot is <span class="font-bold underline text-primary">*your*</span> development team.
+- We custom code everything to reflect your business&#39;s brand and to load lightning fast.
+- When you call, your lead developer answers.
 
-With our Full-Service solution, we handle your businesses online technology needs. Many companies think that having an online presence ends with having a website, but there is so much more involved.
+##### Market =&gt; Coding, Copy, &amp; Conversions
 
-- How are you getting found?
-- What is your advertising strategy?
-- Is your website optimized for Google's Search Engine (SEO Optimized)?
-- Do you have a custom email domain to show credibility to customers?
-- When does your domain expire?
-- Is your DNS configured correctly?
-- How and when will you produce content for your website to stay top of mind with customers and rank higher on Google?
+- No bulky WordPress or Wix templates to slow your site down; we code for speed to improve
+search rankings.
+- No need to spend your &quot;free time&quot; writing blog posts or other content for your site; our
+Copywriting solution takes care of that for you.
+- We optimize every page to build your authority &amp; increase your search rankings on Google
+with quality content, drawing more traffic, user engagement, and conversions.
 
-The list goes on, but you get the idea.
+##### Maintain =&gt; Easy Everyday Engagement
 
-We want to offload the burden of answering those questions by partnering with you so that you can focus on running your business.
+- Our work does not stop once we build your website; we stay on and ensure it works flawlessly every day.
+- We monitor site traffic and engagement using Google Analytics and provide monthly reports on your site&#39;s performance.
+- Using a suite of advanced tools, we evaluate engagement and provide content ideas to your team to boost the experience of customers on your site.
+
+If you are ready to offload the tedious and technical work of Web Development, SEO Optimization, Copywriting, and Website Maintenance, contact Rainier Digital Solutions today!
+
+Our developers are standing by to take your call and answer any questions that you may have.
+Let us help you get back to what matters, running and growing your business.
 
 #### Empowering U.S. Military Veterans
 
