@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Leave the Tech to Us
+  title: Run Your Business, Not Your Website
   content: "We make, market, and maintain websites for Small Businesses and Startups so they can focus on what matters: running the business. No need to worry about purchasing domains, updating websites, tracking SEO trends; we do it all for you."  
   image: /images/banner-art.svg
   button:
