@@ -66,7 +66,7 @@ plans:
     link: "/contact"
 
 call_to_action:
-  title: Looking for something else?
+  title: Looking for something custom?
   content: Each business has its own needs. Contact us and we will work with you if you have special requirements.
   image: '/images/cta.svg'
   button:
