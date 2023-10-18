@@ -12,7 +12,7 @@ canonical: "https://rainierdigitalsolutions.com/blogs/yuzi-case-study"
 
 This case study sheds light on the challenges faced by [Yuzi Care](https://yuzicare.com), a Seattle-based B2B2C HealthTech company dedicated to redefining the maternal care experience. Struggling with an outdated website and a need to enhance user experience and cost-efficiency, Yuzi Care sought a solution that could align with their vision.
 
-[Rainier Digital Solutions](https://rainierdigitalsolutions.com) was chosen due to our strong project vision, our expertise in startups, and our commitment to supporting minority-owned, women-owned, and veteran-owned businesses elevate their online presence to improve their business outcomes.
+[Rainier Digital Solutions](https://rainierdigitalsolutions.com) was chosen due to our strong project vision, our expertise in early stage small businesses, and our commitment to supporting minority-owned, women-owned, and veteran-owned businesses elevate their online presence to improve their business outcomes.
 
 ### Customer Testimonial
 

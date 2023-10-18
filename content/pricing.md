@@ -20,11 +20,25 @@ plans:
     label: Get Started
     link: "/contact"
 
-- title: Professional Plan
-  subtitle: Best for Websites w/ Blogs
-  price: 599
+- title: Full Service Plan
+  subtitle: Best for Small Business
+  price: 999
   type: month
   recommended: true
+  features:
+    - No Limit on Webpages
+    - Google Workspace Setup & Management
+    - Custom Email Templates & Signatures
+    - Domain Management & Hosting
+    - Quarterly SEO Report
+  button:
+    label: Get Started
+    link: "/contact"
+    
+- title: Professional Plan
+  subtitle: Best for Small Websites w/ Blogs
+  price: 599
+  type: month
   features:
     - 10-Page Website
     - 1x 1,000+ Word Post / Month
@@ -35,19 +49,6 @@ plans:
     label: Get Started
     link: "/contact"
 
-- title: Full Service Plan
-  subtitle: We Do It All For You
-  price: 999
-  type: month
-  features:
-    - No Limit on Webpages
-    - Google Workspace Setup & Management
-    - Custom Email Templates & Signatures
-    - Domain Management & Hosting
-    - Quarterly SEO Report
-  button:
-    label: Get Started
-    link: "/contact"
 
 - title: SEO Support + Full Service Plan
   subtitle: Your Personal Web Dev Team

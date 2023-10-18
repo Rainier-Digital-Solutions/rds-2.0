@@ -1,7 +1,8 @@
 ---
 banner:
-  title: Leave the Tech to Us
-  content: "We make, market, and maintain websites for Small Businesses and Startups so they can focus on what matters: running the business. No need to worry about purchasing domains, updating websites, tracking SEO trends; we do it all for you."  
+  heading: Run Your Business, Not Your Website
+  subheading: "We ***<u>Make</u>***, ***<u>Market</u>***, and ***<u>Maintain</u>*** websites for **Small Businesses Owners** so they can ***<u>focus on what matters</u>***: *running their business*."
+  subheading2: "No need to worry about purchasing domains, updating websites, tracking SEO trends; **<u>we do it all for you</u>**."  
   image: /images/banner-art.svg
   button:
     enable: true
@@ -10,7 +11,7 @@ banner:
 
 # feature
 feature: 
-  title: What We Do
+  title: Why Work with Us?
   features:
   - name: "Custom Code"
     icon: "/images/code.svg"

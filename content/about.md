@@ -8,7 +8,7 @@ canonical: "https://rainierdigitalsolutions.com/about"
 ---
 ### Killing the Pain of Building & Maintaining Websites
 
-Rainier Digital Solutions wants to take away the burden of building and maintaining websites for startups and Small & Medium Businesses (SMBs).
+Rainier Digital Solutions wants to take away the burden of building and maintaining websites for Small Business Owners.
 
 You should be focused on **running and growing your business**, not building and managing your website.
 
