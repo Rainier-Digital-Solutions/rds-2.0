@@ -12,7 +12,7 @@ Rainier Digital Solutions wants to take away the burden of building and maintain
 
 You should be focused on **running and growing your business**, not building and managing your website.
 
-Rainier Digital Solutions <span className="font-bold text-primary">offers full-service, white glove solutions</span> that lead to *Easy Everday Engagement* on your website.
+Rainier Digital Solutions <span className="font-bold text-primary">offers full-service, white glove solutions</span> that lead to *Easy Everyday Engagement* on your website.
 
 #### How do we do this?
 

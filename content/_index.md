@@ -92,10 +92,10 @@ services:
 
 # youtube
 video:
-  title: "Why is a Website Important for Your Business"
-  video_id: "NN7YEIlc-Oc"
-  alt: "Why is a Website Important for Your Business"
-  description: "Being found online is essential in today's business environment. Learn how your website's style and performance affects your ability to get customers."
+  title: "Speed Matters: How Slow Websites Are Losing You Customers and Search Rankings"
+  video_id: "WnxYBlgIads"
+  alt: "Google's algorithms consider page loading speed as a ranking factor, and slow mobile sites can harm overall search rankings. So, what's the solution? Custom-built websites optimized for speed."
+  description: "In today's fast-paced digital age, website speed is critical for online success. Slow websites can be a recipe for disaster, driving away potential customers, killing conversion rates, and even getting penalized by search engines like Google."
   loading: "lazy"
 
 # workflow
