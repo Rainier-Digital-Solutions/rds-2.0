@@ -29,7 +29,7 @@ function Pricing({ data }) {
                   </h5>
                   <ul className="mt-5">
                     {plan.features.map((feature, index) => (
-                      <li className="mb-[10px] leading-5" key={index}>
+                      <li className="mb-[10px] leading-5 list-disc list-inside text-left pl-5" key={index}>
                         {feature}
                       </li>
                     ))}
