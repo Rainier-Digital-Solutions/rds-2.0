@@ -20,9 +20,10 @@ const Home = ({ frontmatter }) => {
       <section className="section pb-[50px]">
         <div className="container">
           <div className="text-center row">
-            <div className="mx-auto lg:col-10">
-              <h1 className="font-bold font-primary">{banner.title}</h1>
-              <p className="max-w-3xl mx-auto mt-4 text-lg">{markdownify(banner.content)}</p>
+            <div className="mx-auto lg:col-12">
+              <h1 className="mx-auto font-bold text-left sm:text-center font-primary">{banner.heading}</h1>
+              <p className="max-w-3xl mx-auto mt-4 text-xl text-left sm:text-center">{markdownify(banner.subheading)}</p>
+              <p className="max-w-xl mx-auto mt-4 text-lg text-left sm:text-center">{markdownify(banner.subheading2)}</p>
               {banner.button.enable && (
                 <Link
                   className="mt-4 btn btn-primary"
