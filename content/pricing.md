@@ -27,8 +27,10 @@ plans:
   recommended: true
   features:
     - No Limit on Webpages
-    - Google Workspace Setup & Management
-    - Custom Email Templates & Signatures
+    - Google Workspace Setup
+    - Google Workspace Management
+    - Custom Email Templates
+    - Custom Email Signatures
     - Domain Management & Hosting
     - Quarterly SEO Report
   button:
