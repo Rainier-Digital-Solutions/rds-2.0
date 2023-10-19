@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Rainier Digital Solutions",
+    "title": "Web Design & SEO for Small Businesses | Rainier Digital Solutions",
     "base_url": "https://www.rainierdigitalsolutions.com",
     "favicon": "/logos/favicon.png" ,
     "logo": "/logos/rds_banner_dark.svg",
@@ -31,6 +31,6 @@
   "metadata": {
     "meta_author": "Harper Foley",
     "meta_image": "/logos/rds_banner_inverse.svg",
-    "meta_description": "We make, market, and maintain websites for Small Business Owners so they can focus on what matters most: doing business. We offers full-service, white glove solutions that lead to Easy Everyday Engagement on your website. RDS is a Veteran-Owned web development company based in Seattle."
+    "meta_description": "We make, market, and maintain websites for Small Businesses so they can focus on doing business. We offers full-service website development & SEO optimization solutions."
   }
 }

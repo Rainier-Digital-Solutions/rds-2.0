@@ -1,8 +1,8 @@
 ---
 banner:
-  heading: Run Your Business, Not Your Website
-  subheading: "We ***<u>Make</u>***, ***<u>Market</u>***, and ***<u>Maintain</u>*** websites for **Small Businesses Owners** so they can ***<u>focus on what matters</u>***: *running their business*."
-  subheading2: "No need to worry about purchasing domains, updating websites, tracking SEO trends; **<u>we do it all for you</u>**."  
+  heading: Website Development for Small Business
+  subheading: Run Your Business, Not Your Website
+  subheading2: "We ***<u>Make</u>***, ***<u>Market</u>***, and ***<u>Maintain</u>*** websites for **Small Business Owners** so you can focus on what matters: ***<u>running your business</u>***."
   image: /images/banner-art.svg
   button:
     enable: true
