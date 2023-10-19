@@ -6,7 +6,7 @@ canonical: "https://rainierdigitalsolutions.com/contact"
 layout: "contact"
 draft: false
 info: 
-  title: Contact Us Today!
+  title: Leave the Tech to Us!
   description: If you are ready to offload the drudgeries of building and maintaining your websites so you can run your business, send us a message to setup a call to discuss your needs.
   contacts: 
     - method: "Phone:"
