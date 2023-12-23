@@ -4,7 +4,7 @@ meta_title: "How Slow Websites Are Losing You Customers, Rankings, and Revenue |
 description: Slow loading template websites are killing your customer conversions, Google rankings, and your revenue. Speed is king in today's mobile first search environment. How do you get a faster site? Keep reading here.
 excerpt: Many small business owners gravitate towards cookie-cutter website builders like Wix, GoDaddy, or WordPress, enticed by their apparent cost-effectiveness. However, does this apparent budget-friendliness hold up when we dig deeper?
 featured_image_link: "https://rainierdigitalsolutions.com/blogs/how-slow-websites-are-losing-you-customers-and-rankings"
-image: "/images/blog-images/how-slow-websites-are-losing-you-customers-and-rankings/featured.png"
+image: "/images/blog-images/how-slow-websites-are-losing-you-customers-and-rankings/featured.webp"
 date: 2023-10-01T05:00:00Z
 draft: false
 canonical: "https://rainierdigitalsolutions.com/blogs/how-slow-websites-are-losing-you-customers-and-rankings"

@@ -4,7 +4,7 @@ meta_title: "Why Custom Websites are a Huge Advantage for Small Businesses - Fas
 description: If your business relies on website builders, like WordPress, you are severely hindering your ability to be found online. Learn how upgrading your website can boost your rankings on Google.
 excerpt: If your business relies on website builders, like WordPress, you are severely hindering your ability to be found online. Learn how upgrading your website can boost your rankings on Google through higher performance and optimized SEO.
 featured_image_link: "https://rainierdigitalsolutions.com/blogs/why-custom-websites-are-a-game-changer-for-small-business-owners"
-image: "/images/blog-images/why-custom-websites/featured.png"
+image: "/images/blog-images/why-custom-websites/featured.webp"
 date: 2023-09-19T05:00:00Z
 draft: false
 canonical: "https://rainierdigitalsolutions.com/blogs/why-custom-websites-are-a-game-changer-for-small-business-owners"

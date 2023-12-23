@@ -4,7 +4,7 @@ meta_title: "Modernization - Cost Savings - Full-Service | Case Study: Yuzi Care
 description: See how we saved this Seattle startup over 300% in monthly costs through website modernization and full-service IT/domain management. Read the Case Study.
 excerpt: See how we saved this Seattle startup over 300% in monthly costs through website modernization and full-service IT / domain management.
 featured_image_link: "https://yuzicare.com"
-image: "/images/blog-images/yuzi-case-study/featured.png"
+image: "/images/blog-images/yuzi-case-study/featured.webp"
 date: 2023-06-09T05:00:00Z
 draft: false
 canonical: "https://rainierdigitalsolutions.com/blogs/yuzi-case-study"
@@ -84,7 +84,7 @@ RDS recommendations were based on the following observations:
       <h4>After</h4>
       <a href="https://yuzicare.com" target="_blank">
         <img
-          src='/images/blog-images/yuzi-case-study/yuzi-after.png'
+          src='/images/blog-images/yuzi-case-study/yuzi-after.webp'
           alt="Yuzi Care website by Rainier Digital Solutions"
           className="max-h-[60vh]"
         />
@@ -93,7 +93,7 @@ RDS recommendations were based on the following observations:
     <div>
       <h4>Before</h4>
       <img
-        src='/images/blog-images/yuzi-case-study/yuzi-before.png'
+        src='/images/blog-images/yuzi-case-study/yuzi-before.webp'
         alt="Yuzi Care Wix website"
         className="max-h-[60vh]"
       />
@@ -157,7 +157,7 @@ RDS recommendations were based on the following observations:
     <div>
       <h4>After</h4>
       <img
-        src='/images/blog-images/yuzi-case-study/yuzicare_lighthouse.png'
+        src='/images/blog-images/yuzi-case-study/yuzicare_lighthouse.webp'
         alt="Yuzi Care website by Rainier Digital Solutions"
         className="max-h-[60vh]"
       />
@@ -165,7 +165,7 @@ RDS recommendations were based on the following observations:
     <div>
       <h4>Before</h4>
       <img
-        src='/images/blog-images/yuzi-case-study/yuzimoon_lighthouse.png'
+        src='/images/blog-images/yuzi-case-study/yuzimoon_lighthouse.webp'
         alt="Yuzi Care Wix website"
         className="max-h-[60vh]"
       />
@@ -176,7 +176,7 @@ RDS recommendations were based on the following observations:
 <div className="flex flex-col items-center mt-4 mb-12">
   <h3 className="text-xl">Custom Email Signature</h3>
   <img
-    src='/images/blog-images/yuzi-case-study/email-signature.png'
+    src='/images/blog-images/yuzi-case-study/email-signature.webp'
     alt="Yuzi Care custom email signature"
   />
 </div>
@@ -185,7 +185,7 @@ RDS recommendations were based on the following observations:
   <h3 className="text-xl">Modern Branding</h3>
   <div className="flex flex-wrap justify-center">
     <img
-      src='/images/blog-images/yuzi-case-study/yuzi_only_banner.png'
+      src='/images/blog-images/yuzi-case-study/yuzi_only_banner.webp'
       alt="Yuzi Care Banner Logo"
     />
     <img
@@ -193,7 +193,7 @@ RDS recommendations were based on the following observations:
       alt="Yuzi Care 3 Rings Logo"
     />
     <img
-      src='/images/blog-images/yuzi-case-study/yuzi_square_logo.png'
+      src='/images/blog-images/yuzi-case-study/yuzi_square_logo.webp'
       alt="Yuzi Care Square Logo"
       className="h-[200px] w-[200px]"
     />

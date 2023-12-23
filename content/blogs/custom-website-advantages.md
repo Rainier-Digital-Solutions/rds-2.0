@@ -3,7 +3,7 @@ title: "The Power of Custom Websites: Elevating Your Online Presence Beyond Temp
 meta_title: "Why Build a Custom Website - Stand Out Online | RDS"
 description: 'What if there was a way to take your online identity to the next level, uniquely reflecting your brand and purpose?'
 excerpt: "Imagine having a website that is truly one-of-a-kind, a digital masterpiece tailored to embody your brand's essence. Custom-coded websites empower you to unleash your creativity without constraints."
-image: "/images/blog-images/custom-website-advantages/featured.jpg"
+image: "/images/blog-images/custom-website-advantages/featured.webp"
 date: 2023-01-08T05:00:00Z
 draft: false
 canonical: "https://www.rainierdigitalsolutions.com/blogs/custom-website-advantages"

@@ -37,11 +37,11 @@ services:
   - title: "Case Studies"
     content: "\"Rainier Digital Solutions transformed our online presence. Our new website is visually stunning, and its improved performance has had a significant impact on our business. The custom branding, cost savings, and technical support have been invaluable. We couldn't be happier with the results!\""
     images:
-      - url: "/images/case-studies/yuzi-care/homepage.png"
+      - url: "/images/case-studies/yuzi-care/homepage.webp"
         alt: "Yuzi Care Home Page"
-      - url: "/images/case-studies/yuzi-care/savings.png"
+      - url: "/images/case-studies/yuzi-care/savings.webp"
         alt: "RDS reduced the monthly costs of Yuzi Care by 300%"
-      - url: "/images/case-studies/yuzi-care/yuzimoon_lighthouse.png"
+      - url: "/images/case-studies/yuzi-care/yuzimoon_lighthouse.webp"
         alt: "RDS increased Yuzi's website performance by over 40% "
     button:
       enable: true
@@ -51,11 +51,11 @@ services:
   - title: "Full Service Web Development"
     content: "Your focus should be on your core operations, not on the intricacies of website upkeep. Our Full Web Management service offers you a hassle-free way to maintain and optimize your website comprehensively. From regular updates, security enhancements, and performance optimization to content creation and user experience improvements, we've got you covered."
     images: 
-      - url: "/images/home-page/full-service/developer.png"
+      - url: "/images/home-page/full-service/developer.webp"
         alt: "RDS handles all your website development needs"
-      - url: "/images/home-page/full-service/graph.png"
+      - url: "/images/home-page/full-service/graph.webp"
         alt: "RDS will make sure your presence is everywhere online"
-      - url: "/images/home-page/full-service/reactive-design.png"
+      - url: "/images/home-page/full-service/reactive-design.webp"
         alt: "RDS optimizes your website for mobile devices which increases traffic and conversions"
     button:
       enable: true
@@ -65,11 +65,11 @@ services:
   - title: "SEO"
     content: "A compelling digital presence is only as effective as its visibility. Our SEO strategies are designed to enhance online visibility, attract more organic traffic, and drive meaningful conversions that contribute to the growth of your business."
     images:
-      - url: "/images/home-page/seo/seo.png"
+      - url: "/images/home-page/seo/seo.webp"
         alt: "Let our SEO experts handle your website's development, blogging content, and ensuring you are on Google"
-      - url: "/images/home-page/seo/seo2.png"
+      - url: "/images/home-page/seo/seo2.webp"
         alt: "We perform monthly SEO audits to ensure your website is update to date on the latest SEO best practices"
-      - url: "/images/home-page/seo/seo3.png"
+      - url: "/images/home-page/seo/seo3.webp"
         alt: "Never worry about SEO again by subscribing to our Full-Service package"
     button:
       enable: true
@@ -79,11 +79,11 @@ services:
   - title: "Copywriting"
     content: "Tired of writing your company's blog post in your \"free time\"? Let us handle your copywriting for you. Activate your audience through pitch-perfect, SEO-optimized content and copy for your brand. Our copywriters are SEO experts and will ensure your content is filled with excellent keywords so you can out index your competition."
     images:
-      - url: "/images/home-page/copywriting/copywriting.png"
+      - url: "/images/home-page/copywriting/copywriting.webp"
         alt: "Tired of writing your company's blog post in your \"free time\"? Let us handle your copywriting for you"
-      - url: "/images/home-page/copywriting/copywriting2.png"
+      - url: "/images/home-page/copywriting/copywriting2.webp"
         alt: "Our copywriters are SEO experts and will ensure your content is fill with excellent keywords so you can out index your competition"
-      - url: "/images/home-page/copywriting/copywriting3.png"
+      - url: "/images/home-page/copywriting/copywriting3.webp"
         alt: "Great website content starts with knowing what your customers are searching for. We perform industry focused keyword research before every article."
     button:
       enable: true
