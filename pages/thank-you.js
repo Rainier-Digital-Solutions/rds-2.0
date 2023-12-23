@@ -17,7 +17,7 @@ const ThankYouPage = () => {
       </Link>
       <div className='my-5'>
         <Image
-          src="/images/special/redirect.png"
+          src="/images/special/redirect.webp"
           alt="We are redirecting you back to the previous page."
           width={768}
           height={768}
