@@ -6,63 +6,45 @@ canonical: "https://rainierdigitalsolutions.com/pricing"
 layout: pricing
 draft: false
 plans:
-- title: Standard Plan
-  subtitle: Best for Informational Sites
-  price: 299
+- title: Basic
+  subtitle: Drive Revenue With Custom SEO Services. Increase your website traffic, leads, and sales with a fully managed custom solution.
+  price: 2,499
   type: month
   features:
-    - 5-Page Website
-    - Free Updates
-    - Google Analytics
-    - Hosting Fees Included
-    - Monthly Performance Audit
+    - 150 Keywords Optimized
+    - 30 Pages Optimized
+    - 2x Blog Posts / mo
+    - Website Conversion Funnel Analysis
+    - Weekly Website Audit & Opportunity Report
   button:
     label: Get Started
     link: "/contact"
 
-- title: Full Service Plan
-  subtitle: Best for Small Business
-  price: 999
+- title: Professional
+  subtitle: Get a Custom Site Optimized for SEO. Launch a website that captures your brand, improves your conversion rates, and maximizes your revenue.
+  price: 5,999
   type: month
   recommended: true
   features:
-    - No Limit on Webpages
-    - Google Workspace Setup
-    - Google Workspace Management
-    - Custom Email Templates
-    - Custom Email Signatures
-    - Domain Management & Hosting
-    - Quarterly SEO Report
+    - Standard Plan
+    - Custom Website & Branding
+    - High Speed & Mobile Responsive Website
+    - Database & E-commerce
+    - Content Management System
   button:
     label: Get Started
     link: "/contact"
     
-- title: Professional Plan
-  subtitle: Best for Small Websites w/ Blogs
-  price: 599
+- title: Business
+  subtitle: We'll build a custom solution to meet your needs with priority support and a dedicated account manager.
+  price: 8,999
   type: month
   features:
-    - 10-Page Website
-    - 1x 1,000+ Word Post / Month
-    - Free Updates
-    - Google Analytics
-    - Hosting Fees Included
-  button:
-    label: Get Started
-    link: "/contact"
-
-
-- title: SEO Support + Full Service Plan
-  subtitle: Your Personal Web Dev Team
-  price: 1,999
-  type: month
-  features:
-    - "Full Service Support plus:"
-    - Competitor Analysis
-    - Keyword Research
-    - On-Page SEO Optimization
-    - Technical SEO Optimization
-    - Marketing Support
+    - Professional Plan
+    - Priority Service
+    - Slack / Teams Support
+    - Linear Project Management
+    - Weekly Standup & Updates
   button:
     label: Get Started
     link: "/contact"
