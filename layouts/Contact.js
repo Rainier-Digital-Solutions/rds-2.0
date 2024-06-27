@@ -23,20 +23,15 @@ const Contact = ({ data }) => {
       setFromName('for your submission');
       setShowToast(true);
     } else {
+        setFromName(enteredFromName);
+        setShowToast(true);
+
+        setTimeout(() => {
+          setShowToast(false);
+          setFromName('');
           form.current.reset();
-          setFromName(enteredFromName);
-          setShowToast(true);
-
-          router.push('/thank-you');
-
-          setTimeout(() => {
-            router.back();
-          }, 2000);
+        }, 3000);
     }
-    setTimeout(() => {
-      setShowToast(false);
-      setFromName('');
-    }, 3000);
   };
 
   return (
