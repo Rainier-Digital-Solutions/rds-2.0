@@ -2,8 +2,6 @@ import config from "@config/config.json";
 import { useRouter } from "next/router";
 import { markdownify } from "@lib/utils/textConverter";
 import { useRef, useState } from "react";
-import emailjs from '@emailjs/browser';
-import { emailConfig } from "@config/emailConfig";
 import Toast from "./components/Toast";
 
 const Contact = ({ data }) => {
@@ -11,7 +9,6 @@ const Contact = ({ data }) => {
   const { title, info } = frontmatter;
   const { contact_form_action } = config.params;
   const form = useRef();
-  const { emailServiceId, emailTemplateId, emailPublicKey } = emailConfig;
   const [showToast, setShowToast] = useState(false);
   const [fromName, setFromName] = useState('');
   const router = useRouter();
@@ -26,25 +23,16 @@ const Contact = ({ data }) => {
       setFromName('for your submission');
       setShowToast(true);
     } else {
-      emailjs.sendForm(emailServiceId, emailTemplateId, form.current, emailPublicKey)
-        .then((result) => {
-          console.log(result.text);
           form.current.reset();
           setFromName(enteredFromName);
-          // setShowToast(true);
+          setShowToast(true);
 
           router.push('/thank-you');
 
           setTimeout(() => {
             router.back();
           }, 2000);
-        })
-        .catch((error) => {
-          console.log(error.text);
-          setShowToast(true);
-        });
     }
-
     setTimeout(() => {
       setShowToast(false);
       setFromName('');
